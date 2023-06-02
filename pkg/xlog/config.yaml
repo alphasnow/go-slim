@@ -1,0 +1,10 @@
+level: "warning"
+development: false
+DisableCaller: true
+DisableStacktrace: true
+Encoding: "console"
+rotation:
+  filename: "app.log"
+  maxsize: 10
+  maxage: 30
+  maxbackups: 100

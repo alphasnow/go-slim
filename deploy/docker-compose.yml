@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  app:
+    container_name: app
+    build:
+      context: release
+    environment:
+      - TZ=PRC
+    volumes:
+      - ./release/logs:/app/logs
+      - ./release/uploads:/app/uploads
+    ports:
+      - "8080:8080"
+    network_mode: "bridge"

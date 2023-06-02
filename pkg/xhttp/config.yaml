@@ -1,0 +1,8 @@
+debug: false
+host: "0.0.0.0"
+port: 8080
+readTimeout: 10
+WriteTimeout: 30
+IdleTimeout: 30
+WithoutNginx: false
+MaxPostSize: 10*1024*1024

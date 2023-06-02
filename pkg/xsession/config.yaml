@@ -1,0 +1,9 @@
+name: "_sess"
+store: "cookie"
+cookie:
+  secret: "#Secret#"
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  pass: ""
+  db: 0

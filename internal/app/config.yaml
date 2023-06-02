@@ -1,0 +1,8 @@
+root_path: ""
+logs_path: ""
+configs_path: ""
+uploads_path: ""
+app_env: ""
+app_debug: false
+build_tag: ""
+build_date: ""

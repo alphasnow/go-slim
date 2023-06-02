@@ -1,0 +1,4 @@
+limiter:
+  defaultRate: "1-S"
+  limiterPrefix: "x-ratelimit"
+  redisPrefix: ""

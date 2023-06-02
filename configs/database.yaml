@@ -1,0 +1,24 @@
+mysql:
+  debug: false
+  tablePrefix: ""
+  singularTable: true
+  maxLifetime: 1800
+  maxOpenConns: 60
+  maxIdleConns: 20
+  enableAutoMigrate: true
+  enableCreateDatabase: true
+  host: "127.0.0.1"
+  port: 3306
+  database: "go-slim"
+  username: "root"
+  password: ""
+  parameters: "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+  slowThreshold: 3
+  logLevel: "warn"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  pass: ""
+  db: 0
+  prefix: ""

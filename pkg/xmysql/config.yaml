@@ -1,0 +1,34 @@
+debug: true
+tablePrefix: ""
+singularTable: true
+maxLifetime: 1800
+maxOpenConns: 60
+maxIdleConns: 20
+enableAutoMigrate: false
+enableCreateDatabase: false
+host: "127.0.0.1"
+port: 3306
+database: "database1"
+username: "root"
+password: ""
+parameters: "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+#reads:
+#  - host: "127.0.0.1"
+#    port: 3306
+#    database: "database2"
+#    username: "root"
+#    password: ""
+#    parameters: "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+#  - host: "127.0.0.1"
+#    port: 3306
+#    database: "database3"
+#    username: "root"
+#    password: ""
+#    parameters: "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  pass: ""
+  db: 0
+  prefix: ""

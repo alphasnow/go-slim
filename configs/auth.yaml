@@ -1,0 +1,11 @@
+jwt:
+  secret: "#Secret##Secret#"
+  #access_expire: 86400
+  access_expire: 604800
+  refresh_expire: 31104000
+
+session:
+  name: "_sess"
+  store: "cookie"
+  cookie:
+    secret: "#Secret#"

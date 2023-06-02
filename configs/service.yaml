@@ -1,0 +1,23 @@
+paddle:
+  url: "http://127.0.0.1:8866"
+
+baidu:
+  api_key: ""
+  secret_key: ""
+  app_id: 0
+
+aliyun:
+  access_key_id: ""
+  access_key_secret: ""
+  region_id: "cn-shanghai"
+
+tencent:
+  secret_id: ""
+  secret_key: ""
+  region: "ap-shanghai"
+
+oss:
+  access_key_id: ""
+  access_key_secret: ""
+  endpoint: ""
+  bucket: ""

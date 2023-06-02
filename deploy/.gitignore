@@ -1,0 +1,7 @@
+*.exe
+server
+.env
+configs/*
+web/*
+*.log
+*.exe~
