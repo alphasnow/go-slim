@@ -10,3 +10,17 @@ cp .env.example .env
 go mod tidy
 go run cmd/server
 ```
+
+## Dependencies
+- optimus-go
+- sonyflake
+- gin
+- tencentcloud-sdk-go
+- alibabacloud-go
+- aliyun-oss-go-sdk
+- golang-jwt
+- wire
+- gorm
+
+## License
+This project is licensed under the [Apache License (Version 2.0)](LICENSE).
